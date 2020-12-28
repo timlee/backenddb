@@ -1,0 +1,19 @@
+package com.example.batch22a.UnitTest;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.example.batch22a.Abhi;
+
+public class AbhiTesting {
+@Test
+	public void test() {
+		int a=20;
+		int b=30;
+		int actual=a+b;
+		Abhi abhi=new Abhi();
+		int expected =abhi.add(a, b);
+		Assert.assertEquals(expected, actual);
+		
+	}
+}
